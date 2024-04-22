@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AVERY</title>
+        <meta name="description" content="AVERY DESIGN HOMEPAGE">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="averyimages/favicon.ico">
+    </head>
+    <body>
+        
+        <h1>MACHINEPACK</h1>
+            <nav>
+                   <b>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            
+    <li><a href="archive.html">ARCHIVE</a></li>
+      
+      <li><a href="audio.html">AUDIO</a></li>
+        
+        <li><a href="image.html">IMAGE</a></li>
+</ul>
+                       </b>
+    </nav>
+            <a href="index.html">
+            <img alt="Avery Homepage Image" src="averyimages/home.png"/>
+        </a>
+        <h2>#1 OBLIQUE STRATEGIES</h2>
+        <p>July 7 23</p>
+        <p>
+            <b><i>Oblique Strategies</i></b> are a creativity design concept first created by Brian Eno and Peter Schmidt based on their experiences in recording studios. An Oblique Strategy is an aphorism, koa, or short phrase meant to induce lateral thinking to aid creative processes. There have been a few versions produced over the years, usually in the form of a deck of cards, including atleast one web-based version before <kbd>AVERY's</kbd>.
+        </p>    
+            
+        <p>
+                <b>INSTRUCTIONS</b>
+        </p>
+        
+        <p>
+                Seek guidance as a stuck creative. Press the button once. Read and apply your <i>strategy</i>. Do not draw another "card" until you are pursuing a new project.          
+        </p>
+        
+            <script>
+
+// list of the actual strategies ps. note to future self... learn javascript. you're so goofy funny. 
+  const strats = ["emphasize repetitions", 
+"[blank white card]", 
+"give way to your third impulse", 
+"what would you have done 5 years ago?",
+"remove elements in order of importance",
+"identify embarrasment. amplify.", 
+"a brick, not a wall",
+"cut a vital artery",
+"rubber ducky coding",
+"are there sections? consider transitions",
+"are there sections? consider obscuring them",
+"mute, continue",
+"disregarding complexity",
+"un-use an old idea",
+"in the form of new media", 
+"place trust in the now",
+"only one element of each kind",
+"re-re-group",
+"mechanicalize something idiosyncratic",
+"don't be frightened of cliches",
+"relate it to the nose",
+"ghost echoes",
+"who is the least qualified? ask them", 
+"change roles",
+"ornate framing, simplistic painting",
+"convert the melodic to the rhythmic",
+"advocate for the infant",
+"imitate the environment",
+"honor thy mistake as a hidden intention"];
+
+function findStrats() {
+  let randomIndex = Math.floor(Math.random() * strats.length);
+  document.getElementById("randomStrats").setAttribute("value", strats[randomIndex]);
+}
+
+</script>
+
+ <button onclick="findStrats();" type="randomStrat">New Strategy</button> 
+ <input id="randomStrats" style ="width: 450px">
+   
+    
+
+    </body>
+</html>
+
