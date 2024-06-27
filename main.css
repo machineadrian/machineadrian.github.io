@@ -86,9 +86,10 @@ nav {
 ul {
     list-style-type:none;
     overflow: hidden;
+    display: block;
 }
 
-li{
+li {
     float: left;
 }
 
